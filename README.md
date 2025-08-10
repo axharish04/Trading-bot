@@ -137,6 +137,28 @@ The bot maintains comprehensive logs of all activities:
 
 Log files are stored in the `logs/` directory with timestamp-based naming.
 
+### Sharing Log Files for Support
+
+The bot includes a log export utility for easy sharing of log files via email:
+
+```bash
+# Export last 7 days of logs (default)
+python log_export.py
+
+# Export last 30 days of logs
+python log_export.py --days 30
+
+# Windows users can also use:
+export_logs.bat
+```
+
+This creates a compressed ZIP file in the `exported_logs/` directory containing:
+- Recent log files (sanitized of sensitive data)
+- System information for troubleshooting
+- Usage instructions and documentation
+
+The exported logs are safe to share as they contain no API keys or personal information.
+
 ## Risk Management
 
 ### Built-in Safety Features
