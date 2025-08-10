@@ -52,8 +52,8 @@ This project implements a sophisticated trading bot designed for Binance Futures
 
 ### 1. Environment Setup
 ```bash
-git clone https://github.com/axharish04/binance-futures-trading-bot.git
-cd binance-futures-trading-bot
+git clone https://github.com/axharish04/Trading-bot.git
+cd Training-bot
 ```
 
 ### 2. Install Dependencies
